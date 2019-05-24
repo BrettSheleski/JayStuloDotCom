@@ -1,0 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Jay Stulo | The Jay Stulo Band
+#email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Jay Stulo has been playing, fronting, and leading blues bands since the late 1980’s. 
+  He has toured the nation several times and released 5 CD's. Jay first picked up guitar 
+  at the age of 14, learning some basic chords from his father, a early rock-a-billy 
+  guitarist. He joined his first working bar band Gypsy Rose at the age of 17. Jay hit 
+  the road early with blues legend Luther Allison, then later with James Solberg. Jay 
+  o-founded The Mighty Aces in 1996 and toured full-time for a decade leading the The 
+  Jay Stulo Band. After taking some time away from music in 2006, Jay picked up his 
+  guitar returned to the stage in 2016. It did not take long to get back on top of his 
+  game, first as part of the West Coast style Jay Edward Band and now leading an all 
+  new Jay Stulo Band. Influenced by multiple genres, Jay is not a traditional blues 
+  artist by any means, and this is not your grandfather’s blues - versatile, high 
+  energy guitar pyrotechnics, rock-tinged hooks, and gut-bucket vocals make for a show
+  to remember.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.jaystulo.com/" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+defaults:
+  -
+    values:
+      layout: "default"

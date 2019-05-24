@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/styles.min.css">
+
+
+
+    <title>{{ site.title }} | {{ page.title }}</title>
+</head>
+
+<body class="text-dark">
+    <header>
+        <div class="container">
+            <h1 class="text-right">
+                <a class="text-dark" href="/">Jay Stulo</a>
+            </h1>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <section>
+                        <nav id="mainNav">
+                            <ul class="list-unstyled">
+                                <li class="{% if page.url == '/' %}active{% endif %}">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="{% if page.url == '/music' %}active{% endif %}">
+                                    <a href="/music">Music</a>
+                                </li>
+                                <li class="{% if page.url == '/calendar' %}active{% endif %}">
+                                    <a href="/calendar">Calendar</a>
+                                </li>
+                                <li class="{% if page.url == '/about' %}active{% endif %}"><a href="/about">About</a>
+                                </li>
+                                <li class="{% if page.url == '/contact' %}active{% endif %}"><a
+                                        href="/contact">Contact</a></li>
+                                <li class="{% if page.url == '/epk' %}active{% endif %}"><a href="/epk">EPK</a></li>
+                                <li class="{% if page.url == '/video' %}active{% endif %}"><a href="/video">Video</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </section>
+                    <section>
+                        <h2>Get The Music</h2>
+                        <div class="text-center">
+                            <a href="//store.cdbaby.com/cd/jaystulo3" target="cdbaby"
+                                style="display:inline-block;background:url(//CDBaby.name/1/8/18alb01587614.jpg) 18px 2px no-repeat, url(//content.cdbaby.com/img/links/link-artwork-cart-dark-buy-now.png) 0px 0px no-repeat;background-size:175px, 211px;height:233px;width:211px;"
+                                title="Jay Stulo: Ghosts Around Here" alt="Jay Stulo: Ghosts Around Here"></a>
+
+                            <a href="//store.cdbaby.com/cd/jaystulo" target="cdbaby"
+                                style="display:inline-block;background:url(//CDBaby.name/j/a/jaystulo.jpg) 18px 2px no-repeat, url(//content.cdbaby.com/img/links/link-artwork-cart-dark-buy-now.png) 0px 0px no-repeat;background-size:175px, 211px;height:233px;width:211px;"
+                                title="Jay Stulo: Gone Crazy" alt="Jay Stulo: Gone Crazy"></a>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Social Media</h2>
+                        <a href="https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" target="_blank"
+                            title="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ"><img
+                                src="/images/youtube.png"
+                                alt="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" /></a>
+                        <a href="https://twitter.com/jstulo" target="_blank"
+                            title="Twitter -- https://twitter.com/jstulo"><img src="/images/twitter.png"
+                                alt="Twitter -- https://twitter.com/jstulo" /></a>
+                        <a href="https://www.facebook.com/JayStuloMusic/" target="_blank"
+                            title="Facebook -- https://www.facebook.com/JayStuloMusic/"><img src="/images/facebook.png"
+                                alt="Facebook -- https://www.facebook.com/JayStuloMusic/" /></a>
+                    </section>
+                </div>
+                <div class="col-9">
+                    <div>
+                        <img src="images/JayStulo-Blue.jpg" id="jay-guitar" class="display-block"
+                            alt="Jay Stulo playing a guitar" />
+                    </div>
+                    <div>
+                        {{ content }}
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <section id="press">
+                                <h2>Press</h2>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>Everybody tells me about the top stars of blues, I know a young man you will
+                                            hear very soon. Listen with all your heart and soul. Jay is a great guitar
+                                            player...&nbsp;<strong><em>Luther S. Allison</em></strong></p>
+                                    </li>
+
+                                    <li>
+                                        <p>Jay Stulo is an absolute guitarist's delight...&nbsp;<strong><em>Maximum
+                                                    Ink</em></strong></p>
+                                    </li>
+
+                                    <li>
+                                        <p><em>Cool writing...stratospheric guitar wailing...hot
+                                                stuff...&nbsp;<strong>Blues Revue</strong></em></p>
+                                    </li>
+
+                                    <li>
+                                        <p>With vocals like coarse sand-paper and a take no prisoners guitar style,
+                                            Stulo attacks listeners with a vigorous blend of all cylinders
+                                            rockin'...&nbsp;<strong><em>Boston Blues News</em>&nbsp;</strong></p>
+                                    </li>
+                                    <li>
+                                        <p>The audience seemed to stand back and watch for falling bricks... Jay layed
+                                            down those lines that it seems you've waited a life time to
+                                            hear...&nbsp;<strong><em>Twin Cities Blues News</em></strong></p>
+                                    </li>
+
+                                    <li>
+                                        <p>Fox Valley Grammy's Best live performance by a local band, and the winner is
+                                            Jay Stulo and the Mighty Aces. These guys have come on as heavy duty players
+                                            not only in the Fox Valley but throughout the
+                                            Midwest...&nbsp;<strong><em>Appleton Post Crescent</em></strong></p>
+                                    </li>
+
+                                    <li>
+                                        <p>His (Jay Stulo) playing reminds us what the blues is supposed to be
+                                            about...&nbsp;<strong><em>Blues Revue</em></strong></p>
+                                    </li>
+
+                                    <li>
+                                        <p>A new voice and guitarist with a lot of skill, a style of his own and the
+                                            class not just to show off...&nbsp;<strong><em>Blues Access</em></strong>
+                                        </p>
+                                    </li>
+
+                                </ul>
+
+
+                            </section>
+                        </div>
+                        <div class="col-6">
+                            <section id="facebook">
+                                <h2>Facebook</h2>
+                                <iframe
+                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJayStuloMusic&tabs=timeline%2Cevents&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=523405131199200"
+                                    scrolling="no" frameborder="0" allowTransparency="true"
+                                    allow="encrypted-media"></iframe>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    <footer>
+        <p class="text-center">&copy; 2019 Jay Stulo. All Rights Reserved</p>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
