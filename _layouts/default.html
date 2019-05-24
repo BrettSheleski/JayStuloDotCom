@@ -6,6 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta property="og:url" content="https://www.jaystulo.com/" />
+    <meta property="og:title" content="Jay Stulo" />
+    <meta property="og:description" content="This ain&#039;t your grandpa&#039;s blues." />
+    <meta property="og:image" content="https://www.jaystulo.com/images/jstulofbgraph.jpg" />
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
@@ -29,7 +34,7 @@
 <body class="text-dark">
     <header>
         <div class="container">
-            <h1 class="text-right">
+            <h1 class="section">
                 <a class="text-dark" href="/">Jay Stulo</a>
             </h1>
         </div>
@@ -37,132 +42,96 @@
     <main role="main">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-md-3">
                     <section>
                         <nav id="mainNav">
                             <ul class="list-unstyled">
                                 <li class="{% if page.url == '/' %}active{% endif %}">
                                     <a href="/">Home</a>
                                 </li>
-                                <li class="{% if page.url == '/music' %}active{% endif %}">
-                                    <a href="/music">Music</a>
+                                <li class="{% if page.url == '/music.html' %}active{% endif %}">
+                                    <a href="/music.html">Music</a>
                                 </li>
-                                <li class="{% if page.url == '/calendar' %}active{% endif %}">
-                                    <a href="/calendar">Calendar</a>
+                                <li class="{% if page.url == '/calendar.html' %}active{% endif %}">
+                                    <a href="/calendar.html">Calendar</a>
                                 </li>
-                                <li class="{% if page.url == '/about' %}active{% endif %}"><a href="/about">About</a>
+                                <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="/about.html">About</a>
                                 </li>
-                                <li class="{% if page.url == '/contact' %}active{% endif %}"><a
+                                <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a
                                         href="/contact">Contact</a></li>
-                                <li class="{% if page.url == '/epk' %}active{% endif %}"><a href="/epk">EPK</a></li>
-                                <li class="{% if page.url == '/video' %}active{% endif %}"><a href="/video">Video</a>
+                                <li class="{% if page.url == '/epk.html' %}active{% endif %}"><a href="/epk.html">EPK</a></li>
+                                <li class="{% if page.url == '/video.html' %}active{% endif %}"><a href="/video.html">Video</a>
                                 </li>
                             </ul>
                         </nav>
                     </section>
-                    <section>
-                        <h2>Get The Music</h2>
+                    <section id="get-music">
+                        <h2 class="section">Get The Music</h2>
+                        <ul class="list-unstyled text-center">
+                            <li class="mb-2">
+                                <a href="//store.cdbaby.com/cd/jaystulo3" target="cdbaby"
+                                    title="Jay Stulo: Ghosts Around Here">
+                                    <img class="album-image img-fluid" alt="Jay Stulo: Ghosts Around Here"
+                                        src="//CDBaby.name/1/8/18alb01587614.jpg" />
+                                    <span class="sr-only">Jay Stulo: Ghosts Around Here</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="//store.cdbaby.com/cd/jaystulo" target="cdbaby" title="Jay Stulo: Gone Crazy">
+                                    <img class="bum-image img-fluid" alt="Jay Stulo: Gone Crazy"
+                                        src="//CDBaby.name/j/a/jaystulo.jpg" />
+                                    <span class="sr-only">Jay Stulo: Gone Crazy</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="social">
+                        <h2 class="section">Social Media</h2>
                         <div class="text-center">
-                            <a href="//store.cdbaby.com/cd/jaystulo3" target="cdbaby"
-                                style="display:inline-block;background:url(//CDBaby.name/1/8/18alb01587614.jpg) 18px 2px no-repeat, url(//content.cdbaby.com/img/links/link-artwork-cart-dark-buy-now.png) 0px 0px no-repeat;background-size:175px, 211px;height:233px;width:211px;"
-                                title="Jay Stulo: Ghosts Around Here" alt="Jay Stulo: Ghosts Around Here"></a>
-
-                            <a href="//store.cdbaby.com/cd/jaystulo" target="cdbaby"
-                                style="display:inline-block;background:url(//CDBaby.name/j/a/jaystulo.jpg) 18px 2px no-repeat, url(//content.cdbaby.com/img/links/link-artwork-cart-dark-buy-now.png) 0px 0px no-repeat;background-size:175px, 211px;height:233px;width:211px;"
-                                title="Jay Stulo: Gone Crazy" alt="Jay Stulo: Gone Crazy"></a>
+                            <a href="https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" target="_blank"
+                                title="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ"><img
+                                    src="/images/youtube.png"
+                                    alt="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" /></a>
+                            <a href="https://twitter.com/jstulo" target="_blank"
+                                title="Twitter -- https://twitter.com/jstulo"><img src="/images/twitter.png"
+                                    alt="Twitter -- https://twitter.com/jstulo" /></a>
+                            <a href="https://www.facebook.com/JayStuloMusic/" target="_blank"
+                                title="Facebook -- https://www.facebook.com/JayStuloMusic/"><img
+                                    src="/images/facebook.png"
+                                    alt="Facebook -- https://www.facebook.com/JayStuloMusic/" /></a>
                         </div>
                     </section>
-                    <section>
-                        <h2>Social Media</h2>
-                        <a href="https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" target="_blank"
-                            title="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ"><img
-                                src="/images/youtube.png"
-                                alt="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" /></a>
-                        <a href="https://twitter.com/jstulo" target="_blank"
-                            title="Twitter -- https://twitter.com/jstulo"><img src="/images/twitter.png"
-                                alt="Twitter -- https://twitter.com/jstulo" /></a>
-                        <a href="https://www.facebook.com/JayStuloMusic/" target="_blank"
-                            title="Facebook -- https://www.facebook.com/JayStuloMusic/"><img src="/images/facebook.png"
-                                alt="Facebook -- https://www.facebook.com/JayStuloMusic/" /></a>
-                    </section>
                 </div>
-                <div class="col-9">
+                <div class="col-md-9">
                     <div>
                         <img src="images/JayStulo-Blue.jpg" id="jay-guitar" class="display-block"
                             alt="Jay Stulo playing a guitar" />
                     </div>
                     <div>
                         {{ content }}
+
+                        <div>
+                            {%include share.html %}
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-6">
                             <section id="press">
-                                <h2>Press</h2>
-                                <ul class="list-unstyled">
-                                    <li>
-                                        <p>Everybody tells me about the top stars of blues, I know a young man you will
-                                            hear very soon. Listen with all your heart and soul. Jay is a great guitar
-                                            player...&nbsp;<strong><em>Luther S. Allison</em></strong></p>
-                                    </li>
-
-                                    <li>
-                                        <p>Jay Stulo is an absolute guitarist's delight...&nbsp;<strong><em>Maximum
-                                                    Ink</em></strong></p>
-                                    </li>
-
-                                    <li>
-                                        <p><em>Cool writing...stratospheric guitar wailing...hot
-                                                stuff...&nbsp;<strong>Blues Revue</strong></em></p>
-                                    </li>
-
-                                    <li>
-                                        <p>With vocals like coarse sand-paper and a take no prisoners guitar style,
-                                            Stulo attacks listeners with a vigorous blend of all cylinders
-                                            rockin'...&nbsp;<strong><em>Boston Blues News</em>&nbsp;</strong></p>
-                                    </li>
-                                    <li>
-                                        <p>The audience seemed to stand back and watch for falling bricks... Jay layed
-                                            down those lines that it seems you've waited a life time to
-                                            hear...&nbsp;<strong><em>Twin Cities Blues News</em></strong></p>
-                                    </li>
-
-                                    <li>
-                                        <p>Fox Valley Grammy's Best live performance by a local band, and the winner is
-                                            Jay Stulo and the Mighty Aces. These guys have come on as heavy duty players
-                                            not only in the Fox Valley but throughout the
-                                            Midwest...&nbsp;<strong><em>Appleton Post Crescent</em></strong></p>
-                                    </li>
-
-                                    <li>
-                                        <p>His (Jay Stulo) playing reminds us what the blues is supposed to be
-                                            about...&nbsp;<strong><em>Blues Revue</em></strong></p>
-                                    </li>
-
-                                    <li>
-                                        <p>A new voice and guitarist with a lot of skill, a style of his own and the
-                                            class not just to show off...&nbsp;<strong><em>Blues Access</em></strong>
-                                        </p>
-                                    </li>
-
-                                </ul>
-
-
+                                <h2 class="section">Press</h2>
+                                {%include press.html %}
                             </section>
                         </div>
                         <div class="col-6">
                             <section id="facebook">
-                                <h2>Facebook</h2>
+                                <h2 class="section">Facebook</h2>
                                 <iframe
-                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJayStuloMusic&tabs=timeline%2Cevents&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=523405131199200"
-                                    scrolling="no" frameborder="0" allowTransparency="true"
+                                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJayStuloMusic&tabs=timeline%2Cevents&small_header=false&hide_cover=false&show_facepile=true&appId=523405131199200"
                                     allow="encrypted-media"></iframe>
                             </section>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </main>
     <footer>
