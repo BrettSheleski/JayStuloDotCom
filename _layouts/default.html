@@ -11,12 +11,12 @@
     <meta property="og:description" content="This ain&#039;t your grandpa&#039;s blues." />
     <meta property="og:image" content="https://www.jaystulo.com/images/jstulofbgraph.jpg" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" href="styles/styles.min.css">
 
-    {% assign pageStyle = page.url | remove : ".html" | prepend : 'styles/page' | append : '.min.css' %}
+    {% assign pageStyle = page.url | remove : ".html" | prepend : '/styles/page' | append : '.min.css' %}
     {% for static_file in site.static_files %}
     {% if static_file.path ==  pageStyle %}
     <link rel="stylesheet" src='{{ pageScript }}?t={{ static_file.modified_time | date: "%s" }}' />
@@ -54,23 +54,23 @@
                         <nav id="mainNav">
                             <ul class="list-unstyled">
                                 <li class="{% if page.url == '/' %}active{% endif %}">
-                                    <a href="index.html">Home</a>
+                                    <a href="/">Home</a>
                                 </li>
                                 <li class="{% if page.url == '/music.html' %}active{% endif %}">
-                                    <a href="music.html">Music</a>
+                                    <a href="/music.html">Music</a>
                                 </li>
                                 <li class="{% if page.url == '/calendar.html' %}active{% endif %}">
-                                    <a href="calendar.html">Calendar</a>
+                                    <a href="/calendar.html">Calendar</a>
                                 </li>
                                 <li class="{% if page.url == '/about.html' %}active{% endif %}"><a
-                                        href="about.html">About</a>
+                                        href="/about.html">About</a>
                                 </li>
                                 <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a
-                                        href="contact">Contact</a></li>
-                                <li class="{% if page.url == '/epk.html' %}active{% endif %}"><a href="epk.html">EPK</a>
-                                </li>
+                                        href="/contact">Contact</a></li>
+                                <li class="{% if page.url == '/epk.html' %}active{% endif %}"><a
+                                        href="/epk.html">EPK</a></li>
                                 <li class="{% if page.url == '/video.html' %}active{% endif %}"><a
-                                        href="video.html">Video</a>
+                                        href="/video.html">Video</a>
                                 </li>
                             </ul>
                         </nav>
@@ -100,14 +100,14 @@
                         <div class="text-center">
                             <a href="https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" target="_blank"
                                 title="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ"><img
-                                    src="images/youtube.png"
+                                    src="/images/youtube.png"
                                     alt="YouTube -- https://www.youtube.com/channel/UCDZAtkSJ-FRYwhDWv1wL8fQ" /></a>
                             <a href="https://twitter.com/jstulo" target="_blank"
-                                title="Twitter -- https://twitter.com/jstulo"><img src="images/twitter.png"
+                                title="Twitter -- https://twitter.com/jstulo"><img src="/images/twitter.png"
                                     alt="Twitter -- https://twitter.com/jstulo" /></a>
                             <a href="https://www.facebook.com/JayStuloMusic/" target="_blank"
                                 title="Facebook -- https://www.facebook.com/JayStuloMusic/"><img
-                                    src="images/facebook.png"
+                                    src="/images/facebook.png"
                                     alt="Facebook -- https://www.facebook.com/JayStuloMusic/" /></a>
                         </div>
                     </section>
@@ -160,7 +160,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    {% assign pageScript = page.url | remove : ".html" | prepend : 'scripts/page' | append : '.js' %}
+    {% assign pageScript = page.url | remove : ".html" | prepend : '/scripts/page' | append : '.js' %}
     {% for static_file in site.static_files %}
     {% if static_file.path ==  pageScript %}
     <script src='{{ pageScript }}?t={{ static_file.modified_time | date: "%s" }}'></script>
