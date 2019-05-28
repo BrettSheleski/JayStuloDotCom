@@ -11,15 +11,13 @@
     <div class="card mt-2">
       <div class="card-header">
         <h3 class="card-title">
-          <a href="#">
-            {{ music.title }}
+          {{ music.title }}
 
-            {% if music.duration %}
-            <small class="music-duration float-right">
-              {{ music.duration | divided_by: 60 }}:{{ music.duration | modulo: 60 }}
-            </small>
-            {% endif %}
-          </a>
+          {% if music.duration %}
+          <small class="music-duration float-right">
+            {{ music.duration | divided_by: 60 }}:{{ music.duration | modulo: 60 }}
+          </small>
+          {% endif %}
         </h3>
       </div>
       {% if music.files and music.files.size > 0 %}
