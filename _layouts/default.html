@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" href="styles/styles.min.css">
 
-    {% assign pageStyle = page.url | remove : ".html" | prepend : '/styles/page' | append : '.min.css' %}
+    {% assign pageStyle = page.url | remove : ".html" | prepend : 'styles/page' | append : '.min.css' %}
     {% for static_file in site.static_files %}
     {% if static_file.path ==  pageStyle %}
     <link rel="stylesheet" src='{{ pageScript }}?t={{ static_file.modified_time | date: "%s" }}' />
@@ -54,23 +54,23 @@
                         <nav id="mainNav">
                             <ul class="list-unstyled">
                                 <li class="{% if page.url == '/' %}active{% endif %}">
-                                    <a href="/">Home</a>
+                                    <a href="index.html">Home</a>
                                 </li>
                                 <li class="{% if page.url == '/music.html' %}active{% endif %}">
-                                    <a href="/music.html">Music</a>
+                                    <a href="music.html">Music</a>
                                 </li>
                                 <li class="{% if page.url == '/calendar.html' %}active{% endif %}">
-                                    <a href="/calendar.html">Calendar</a>
+                                    <a href="calendar.html">Calendar</a>
                                 </li>
                                 <li class="{% if page.url == '/about.html' %}active{% endif %}"><a
-                                        href="/about.html">About</a>
+                                        href="about.html">About</a>
                                 </li>
                                 <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a
-                                        href="/contact">Contact</a></li>
+                                        href="contact">Contact</a></li>
                                 <li class="{% if page.url == '/epk.html' %}active{% endif %}"><a
-                                        href="/epk.html">EPK</a></li>
+                                        href="epk.html">EPK</a></li>
                                 <li class="{% if page.url == '/video.html' %}active{% endif %}"><a
-                                        href="/video.html">Video</a>
+                                        href="video.html">Video</a>
                                 </li>
                             </ul>
                         </nav>
@@ -160,7 +160,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-    {% assign pageScript = page.url | remove : ".html" | prepend : '/scripts/page' | append : '.js' %}
+    {% assign pageScript = page.url | remove : ".html" | prepend : 'scripts/page' | append : '.js' %}
     {% for static_file in site.static_files %}
     {% if static_file.path ==  pageScript %}
     <script src='{{ pageScript }}?t={{ static_file.modified_time | date: "%s" }}'></script>

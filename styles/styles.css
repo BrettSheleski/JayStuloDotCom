@@ -11,12 +11,12 @@ body {
   border-color: #333333;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1.section, h2.section, h3.section, h4.section, h5.section, h6.section {
   text-transform: uppercase;
   text-align: right;
 }
 
-h2, h3, h4, h5, h6 {
+h2.section, h3.section, h4.section, h5.section, h6.section {
   border-bottom: 1px solid #333;
 }
 
