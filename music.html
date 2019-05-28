@@ -1,0 +1,56 @@
+---
+---
+
+<ul class="list-unstyled">
+  {% for music in site.data.music %}
+  <li>
+    <div class="card mt-2">
+      <div class="card-header">
+        <h3 class="card-title">
+          <a href="#">
+            {{ music.title }}
+
+            {% if music.duration %}
+            <small class="music-duration float-right">
+              {{ music.duration | divided_by: 60 }}:{{ music.duration | modulo: 60 }}
+            </small>
+            {% endif %}
+          </a>
+        </h3>
+      </div>
+      <div class="card-body">
+        {% if music.artists %}
+        <div>
+          <ul class="list-inline">
+            {% for artist in music.artists %}
+            <li class="list-inline-item">{{ artist }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if music.date %}
+        <div>
+          {{ music.date | date : "%Y"}}
+        </div>
+        {% endif %}
+        {% if music.authors %}
+        <div>
+          <ul class="list-inline">
+            {% for author in music.authors %}
+            <li class="list-inline-item">{{ author }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+
+        {% if music.lyrics %}
+        <div class="lyrics">
+          <h4>Lyrics</h4>
+          {{ music.lyrics | newline_to_br }}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

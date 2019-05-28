@@ -1,0 +1,11 @@
+[
+    {
+        "date" : "2019-06-07T19:00:00-05:00",
+        "title" : "Jay Performing with Helen Exner",
+        "url" : "https://gibsonmusichall.com/",
+        "venue" : {
+            "name": "Gibson Music Hall",
+            "address": "211 W. College Ave\nAppleton, Wi 54911"
+        }
+    }
+]

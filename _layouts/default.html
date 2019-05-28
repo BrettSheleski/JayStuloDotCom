@@ -26,6 +26,13 @@
 
     <link rel="stylesheet" href="styles/styles.min.css">
 
+    {% assign pageStyle = page.url | remove : ".html" | prepend : '/styles/page' | append : '.min.css' %}
+    {% for static_file in site.static_files %}
+    {% if static_file.path ==  pageStyle %}
+    <link rel="stylesheet" src='{{ pageScript }}?t={{ static_file.modified_time | date: "%s" }}' />
+    {% endif %}
+    {% endfor %}
+
 
 
     <title>{{ site.title }} | {{ page.title }}</title>
@@ -55,12 +62,15 @@
                                 <li class="{% if page.url == '/calendar.html' %}active{% endif %}">
                                     <a href="/calendar.html">Calendar</a>
                                 </li>
-                                <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="/about.html">About</a>
+                                <li class="{% if page.url == '/about.html' %}active{% endif %}"><a
+                                        href="/about.html">About</a>
                                 </li>
                                 <li class="{% if page.url == '/contact.html' %}active{% endif %}"><a
                                         href="/contact">Contact</a></li>
-                                <li class="{% if page.url == '/epk.html' %}active{% endif %}"><a href="/epk.html">EPK</a></li>
-                                <li class="{% if page.url == '/video.html' %}active{% endif %}"><a href="/video.html">Video</a>
+                                <li class="{% if page.url == '/epk.html' %}active{% endif %}"><a
+                                        href="/epk.html">EPK</a></li>
+                                <li class="{% if page.url == '/video.html' %}active{% endif %}"><a
+                                        href="/video.html">Video</a>
                                 </li>
                             </ul>
                         </nav>
@@ -141,15 +151,21 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    {% assign pageScript = page.url | remove : ".html" | prepend : '/scripts/page' | append : '.js' %}
+    {% for static_file in site.static_files %}
+    {% if static_file.path ==  pageScript %}
+    <script src='{{ pageScript }}?t={{ static_file.modified_time | date: "%s" }}'></script>
+    {% endif %}
+    {% endfor %}
 </body>
 
 </html>
