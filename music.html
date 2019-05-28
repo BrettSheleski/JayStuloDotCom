@@ -1,9 +1,13 @@
 ---
 ---
 
+<div id="audio-player">
+
+</div>
+
 <ul class="list-unstyled">
   {% for music in site.data.music %}
-  <li>
+  <li class="song">
     <div class="card mt-2">
       <div class="card-header">
         <h3 class="card-title">
@@ -18,37 +22,69 @@
           </a>
         </h3>
       </div>
-      <div class="card-body">
-        {% if music.artists %}
-        <div>
-          <ul class="list-inline">
-            {% for artist in music.artists %}
-            <li class="list-inline-item">{{ artist }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
-        {% if music.date %}
-        <div>
-          {{ music.date | date : "%Y"}}
-        </div>
-        {% endif %}
-        {% if music.authors %}
-        <div>
-          <ul class="list-inline">
-            {% for author in music.authors %}
-            <li class="list-inline-item">{{ author }}</li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% endif %}
+      {% if music.files and music.files.size > 0 %}
+      <div class="card-body text-light">
+        <audio controls>
+          <span>Your browser does not support playing audio.</span>
+          {% for file in music.files %}
+          <source src="{{ file.path }}" type="{{ path.type }}" />
+          {% endfor %}
+        </audio>
+      </div>
+      {% endif %}
 
-        {% if music.lyrics %}
+      {% if music.lyrics %}
+      <div class="card-body text-light">
         <div class="lyrics">
           <h4>Lyrics</h4>
           {{ music.lyrics | newline_to_br }}
         </div>
-        {% endif %}
+      </div>
+      {% endif %}
+      <div class="card-footer text-light">
+        <dl class="row">
+          {% if music.artists %}
+          <dt class="col-3 text-right">
+            {% if music.artists.size > 1 %}
+            Artists
+            {% else %}
+            Artist
+            {% endif %}
+          </dt>
+          <dd class="col-9">
+            <ul class="list-inline">
+              {% for artist in music.artists %}
+              <li class="list-inline-item">{{ artist }}</li>
+              {% endfor %}
+            </ul>
+          </dd>
+          {% endif %}
+          {% if music.date %}
+          <dt class="col-3 text-right">
+            Date
+          </dt>
+          <dd class="col-9">
+            {{ music.date | date : "%Y"}}
+          </dd>
+          {% endif %}
+
+          {% if music.authors %}
+          <dt class="col-3 text-right">
+            {% if music.authors.size > 1 %}
+            Authors
+            {% else %}
+            Author
+            {% endif %}
+          </dt>
+          <dd class="col-9">
+            <ul class="list-inline">
+              {% for author in music.authors %}
+              <li class="list-inline-item">{{ author }}</li>
+              {% endfor %}
+            </ul>
+          </dd>
+          {% endif %}
+        </dl>
       </div>
     </div>
   </li>

@@ -1,0 +1,12 @@
+.song .card {
+  background-color: rgba(51, 51, 51, 0.7);
+}
+
+.song .card-title a {
+  color: white;
+}
+
+audio {
+  display: block;
+  width: 100%;
+}

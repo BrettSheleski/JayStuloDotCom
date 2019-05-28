@@ -29,7 +29,7 @@
     {% assign pageStyle = page.url | remove : ".html" | prepend : '/styles/page' | append : '.min.css' %}
     {% for static_file in site.static_files %}
     {% if static_file.path ==  pageStyle %}
-    <link rel="stylesheet" src='{{ pageScript }}?t={{ static_file.modified_time | date: "%s" }}' />
+    <link rel="stylesheet" href='{{ pageStyle }}?t={{ static_file.modified_time | date: "%s" }}' />
     {% endif %}
     {% endfor %}
 

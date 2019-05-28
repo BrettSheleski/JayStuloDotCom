@@ -2,18 +2,36 @@
     {
         "title": "Miss You (All Your Love)",
         "duration": 256,
-        "artists" : ["Jay Stulo", "Tom Thiel", "Greg Thiel"],
-        "authors" : ["Jay Stulo"],
-        "date" : "2019-01-01T00:00:00Z",
-        "file" : "/files/music/MP3-320-18alb01587614-01_hifi.mp3"
+        "artists": [
+            "Jay Stulo",
+            "Tom Thiel",
+            "Greg Thiel"
+        ],
+        "authors": [
+            "Jay Stulo"
+        ],
+        "date": "2019-01-01T00:00:00Z",
+        "files": [
+            {
+                "path": "/files/music/MP3-320-18alb01587614-01_hifi.mp3",
+                "type": "audio/mp3"
+            }
+        ]
     },
     {
         "title": "Something's Missing",
         "duration": 332,
-        "artists" : ["Jay Stulo", "Tom Thiel", "Greg Thiel"],
-        "authors" : ["Jay Stulo", "Corey Chisel"],
-        "date" : "2019-01-01T00:00:00Z",
-        "file" : null,
-        "lyrics" : "I\u2019ve seen you\u2019re a beggar\r\nIn search of the sweetest wine\r\nYou found that fruit digging up roots\r\nI heard it from a friend of mine\r\n\r\nThey tell me you\u2019re a lender\r\nLiving on borrowed time\r\nYou\u2019re speaking of proof with half a truth\r\nYou\u2019re stealing that stack of dimes\r\n\r\nSomething\u2019s missing, something\u2019s wrong\r\nC\u2019mon people pass it on\r\nSomething\u2019s missing, something\u2019s wrong\r\nHallelujah sister sing along\r\nSomething\u2019s missing, something\u2019s wrong\r\nIf I could change this song\r\nI\u2019d move this train along\r\n\r\nThey tell me you are a scholar\r\nThe quiet one in the back\r\nThe papers on the wall don\u2019t they say it all\r\nYou got nothing because you\u2019re keeping track\r\n\r\nCan\u2019t you hear me oh wise man\r\nDon\u2019t you wanna be like me\r\nPlaces we don\u2019t go, things we ought not know\r\nNothing gonna set us free\r\nHey Mr. Speaker\r\nYour tongue tied up in lies\r\nSelling that crap that we\u2019d take back\r\nIf only we could open our eyes\r\n\r\nSomething\u2019s missing, something\u2019s wrong\r\nC\u2019mon people pass it on\r\nSomething\u2019s missing, something\u2019s wrong\r\nHallelujah sing along\r\nSomething\u2019s missing, something\u2019s wrong\r\nIf I could change this song\r\nI\u2019d move this train along"
+        "artists": [
+            "Jay Stulo",
+            "Tom Thiel",
+            "Greg Thiel"
+        ],
+        "authors": [
+            "Jay Stulo",
+            "Corey Chisel"
+        ],
+        "date": "2019-01-01T00:00:00Z",
+        "files": [],
+        "lyrics": "I\u2019ve seen you\u2019re a beggar\r\nIn search of the sweetest wine\r\nYou found that fruit digging up roots\r\nI heard it from a friend of mine\r\n\r\nThey tell me you\u2019re a lender\r\nLiving on borrowed time\r\nYou\u2019re speaking of proof with half a truth\r\nYou\u2019re stealing that stack of dimes\r\n\r\nSomething\u2019s missing, something\u2019s wrong\r\nC\u2019mon people pass it on\r\nSomething\u2019s missing, something\u2019s wrong\r\nHallelujah sister sing along\r\nSomething\u2019s missing, something\u2019s wrong\r\nIf I could change this song\r\nI\u2019d move this train along\r\n\r\nThey tell me you are a scholar\r\nThe quiet one in the back\r\nThe papers on the wall don\u2019t they say it all\r\nYou got nothing because you\u2019re keeping track\r\n\r\nCan\u2019t you hear me oh wise man\r\nDon\u2019t you wanna be like me\r\nPlaces we don\u2019t go, things we ought not know\r\nNothing gonna set us free\r\nHey Mr. Speaker\r\nYour tongue tied up in lies\r\nSelling that crap that we\u2019d take back\r\nIf only we could open our eyes\r\n\r\nSomething\u2019s missing, something\u2019s wrong\r\nC\u2019mon people pass it on\r\nSomething\u2019s missing, something\u2019s wrong\r\nHallelujah sing along\r\nSomething\u2019s missing, something\u2019s wrong\r\nIf I could change this song\r\nI\u2019d move this train along"
     }
 ]

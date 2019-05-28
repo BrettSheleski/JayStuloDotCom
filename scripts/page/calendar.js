@@ -8,7 +8,7 @@ $.ajax({
     success: function (data) {
 
         var gig, gigDate;
-        var now = new Date(Date.now());
+        var now = new Date();
         var el;
         for (var i = 0; i < data.length; ++i) {
             gig = data[i];
