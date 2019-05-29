@@ -1,5 +1,37 @@
-[
+/*FRIDAY, MAY 10TH, 2019
+O' Marro's Public House
+The Jay Stulo Band - 8pm
+2211T Oregon St
+Oshkosh, WI	
+(920) 410-7735
+SATURDAY, MAY 4TH, 2019
+Fat Seagull
+The Jay Stulo Band - 7pm
+807 Quay St
+Manitowoc, WI	54220	
+(920) 684-9123
+*/
 
+[
+    {
+        "date" : "2019-04-27T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Washburn Brokedown Blues Festival",
+            "address": "Washburn, WI"
+        }
+    },
+    {
+        "date" : "2019-04-26T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.dalysrestaurant.com/",
+        "venue" : {
+            "name": "Daly's",
+            "address": "307 3rd St\nWausau, WI 54403",
+            "phone":"(715) 298-1331"
+        }
+    },
     {
         "date" : "2019-05-26T00:00:00-05:00",
         "title" : "The Jay Stulo Band",
