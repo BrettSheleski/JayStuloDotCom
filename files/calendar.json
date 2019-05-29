@@ -73,5 +73,33 @@
             "name": "Metro Jam",
             "address": "Washington Park\nManitowoc, Wi"
         }
+    },
+    {
+        "date" : "2019-06-15T19:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "https://www.facebook.com/BrownBottlePlymouth/",
+        "venue" : {
+            "name": "Brown Bottle",
+            "address": "401 E Mill ST\nPlymouth, Wi"
+        }
+    },
+    {
+        "date" : "2019-07-06T18:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.summerfest.com/",
+        "venue" : {
+            "name": "Summerfest",
+            "address": "Harley Davidson Stage\nMilwaukee, Wi"
+        }
+    }
+    ,
+    {
+        "date" : "2019-07-12T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "https://gibsonmusichall.com/",
+        "venue" : {
+            "name": "Gibson Music Hall",
+            "address": "211 W. College Ave\nAppleton, Wi 54911"
+        }
     }
 ]
