@@ -1,5 +1,15 @@
 [
     {
+        "date" : "2019-04-26T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.dalysrestaurant.com/",
+        "venue" : {
+            "name": "Daly's",
+            "address": "307 3rd St\nWausau, WI 54403",
+            "phone":"(715) 298-1331"
+        }
+    },
+    {
         "date" : "2019-04-27T20:00:00-05:00",
         "title" : "The Jay Stulo Band",
         
@@ -9,13 +19,23 @@
         }
     },
     {
-        "date" : "2019-04-26T20:00:00-05:00",
+        "date" : "2019-05-04T19:00:00-05:00",
         "title" : "The Jay Stulo Band",
-        "url" : "http://www.dalysrestaurant.com/",
+       
         "venue" : {
-            "name": "Daly's",
-            "address": "307 3rd St\nWausau, WI 54403",
-            "phone":"(715) 298-1331"
+            "name": "Fat Seagull",
+            "address": "807 Quay ST\nManitowoc, WI 54220",
+            "phone":"(920) 684-9123"
+        }
+    },
+    {
+        "date" : "2019-05-10T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+       
+        "venue" : {
+            "name": "O' Marro's Public House",
+            "address": "2211T Oregon ST\nOshkosh, WI",
+            "phone":"(920) 410-7735"
         }
     },
     {
