@@ -53,7 +53,7 @@
         "url" : "https://gibsonmusichall.com/",
         "venue" : {
             "name": "Gibson Music Hall",
-            "address": "211 W. College Ave\nAppleton, Wi 54911"
+            "address": "211 W. College Ave\nAppleton, WI 54911"
         }
     },
     {
@@ -62,7 +62,7 @@
         "url" : "https://www.facebook.com/livefromhydropark",
         "venue" : {
             "name": "Live from Hydro Park",
-            "address": "100 Crooks Ave\nKaukauna, Wi"
+            "address": "100 Crooks Ave\nKaukauna, WI"
         }
     },
     {
@@ -71,7 +71,7 @@
         "url" : "http://metrojam.org/",
         "venue" : {
             "name": "Metro Jam",
-            "address": "Washington Park\nManitowoc, Wi"
+            "address": "Washington Park\nManitowoc, WI"
         }
     },
     {
@@ -80,7 +80,7 @@
         "url" : "https://www.facebook.com/BrownBottlePlymouth/",
         "venue" : {
             "name": "Brown Bottle",
-            "address": "401 E Mill ST\nPlymouth, Wi"
+            "address": "401 E Mill ST\nPlymouth, WI"
         }
     },
     {
@@ -89,17 +89,34 @@
         "url" : "http://www.summerfest.com/",
         "venue" : {
             "name": "Summerfest",
-            "address": "Harley Davidson Stage\nMilwaukee, Wi"
+            "address": "Harley Davidson Stage\nMilwaukee, WI"
         }
-    }
-    ,
+    },
     {
         "date" : "2019-07-12T20:00:00-05:00",
         "title" : "The Jay Stulo Band",
         "url" : "https://gibsonmusichall.com/",
         "venue" : {
             "name": "Gibson Music Hall",
-            "address": "211 W. College Ave\nAppleton, Wi 54911"
+            "address": "211 W. College Ave\nAppleton, WI 54911"
+        }
+    },
+    {
+        "date" : "2019-07-13T11:30:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Bastille Days Festival",
+            "address": "Wells West Stage\nMilwaukee, WI"
+        }
+    },
+    {
+        "date" : "2019-08-01T18:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Gazebo Nights",
+            "address": "Normal Park\nMerrill, WI"
         }
     }
 ]
