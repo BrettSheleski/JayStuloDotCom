@@ -1,5 +1,5 @@
 ---
 ---
-# [Stage Plot](files/JayStuloBandStagePlot.pdf)
+# Download the [Stage Plot](files/JayStuloBandStagePlot.pdf)
 
-# [EPK](files/JayStuloBand-EPK.pdf)
+# Download the [EPK](files/JayStuloBand-EPK.pdf)
