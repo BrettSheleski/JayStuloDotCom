@@ -21,7 +21,7 @@ $.ajax({
             $(".gig_time", el).text(gigDate.toLocaleString('en-us', {  hour: '2-digit', minute: '2-digit' }));
             $(".gig_venue", el).text(gig.venue.name).attr("href", gig.url);
             $(".gig_address", el).text(gig.venue.address);
-
+            $(".gig_phone", el).text(gig.venue.phone);
             if (gigDate > now) {
                 // future
 
