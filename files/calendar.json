@@ -84,6 +84,24 @@
         }
     },
     {
+        "date" : "2019-06-30T14:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Private Party",
+            "address": "New Holstein, WI"
+        }
+    },
+    {
+        "date" : "2019-07-06T18:50:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+       
+        "venue" : {
+            "name": "Salmon Derby",
+            "address": "425 Maritime Dr\nManitowoc, WI"
+        }
+    },
+    {
         "date" : "2019-07-06T18:00:00-05:00",
         "title" : "The Jay Stulo Band",
         "url" : "http://www.summerfest.com/",
@@ -111,12 +129,159 @@
         }
     },
     {
+        "date" : "2019-07-18T19:30:00-05:00",
+        "title" : "Stulo - Thiel with Greg Thiel",
+        "url" : "https://www.facebook.com/rockgardenlive/",
+        "venue" : {
+            "name": "Rock Garden Live",
+            "address": "101 W Edison Ave #120\nAppleton, WI"
+        }
+    },
+    {
+        "date" : "2019-07-27T16:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Weinerfest",
+            "address": "Lakewood Pavillion\nLakewood, WI"
+        }
+    },
+    {
         "date" : "2019-08-01T18:00:00-05:00",
         "title" : "The Jay Stulo Band",
         
         "venue" : {
             "name": "Gazebo Nights",
             "address": "Normal Park\nMerrill, WI"
+        }
+    },
+    {
+        "date" : "2019-08-03T10:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Sheboygan Brat Days",
+            "address": "726 17th Street\nSheboygan, WI"
+        }
+    },
+    {
+        "date" : "2019-08-11T15:15:00-05:00",
+        "title" : "Jay w/ Big Al Dorn and the Howlers",
+        
+        "venue" : {
+            "name": "Smiling Moose",
+            "address": "10731 WI-42\nOsman, WI"
+        }
+    },
+    {
+        "date" : "2019-08-20T18:30:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Plank Road Pub",
+            "address": "1632 Mid Valley Dr\nDe Pere , WI"
+        }
+    },
+    {
+        "date" : "2019-08-23T22:00:00-05:00",
+        "title" : "Stulo - Thiel Band",
+        "url" : "https://www.madapplebilliards.com/",
+        "venue" : {
+            "name": "Mad Apple Music Fest",
+            "address": "3025 W College Ave.\nAppleton, WI"
+        }
+    },
+    {
+        "date" : "2019-08-24T14:00:00-05:00",
+        "title" : "Jay with Bryan Koenig's All Stars",
+        
+        "venue" : {
+            "name": "101 Club",
+            "address": "101 N 3rd Ave\nWausau, WI"
+        }
+    },
+    {
+        "date" : "2019-08-11T15:15:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Smiling Moose",
+            "address": "10731 WI-42\nOsman, WI"
+        }
+    },
+    {
+        "date" : "2019-09-02T15:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Milwaukee Harley Davidson",
+            "address": "11310 W Silver Spring Rd\nMilwaukee, WI"
+        }
+    },
+    {
+        "date" : "2019-09-13T14:00:00-05:00",
+        "title" : "with Gypsy Rose",
+        
+        "venue" : {
+            "name": "Pik's Pub",
+            "address": "Tomahawk, WI"
+        }
+    },
+    {
+        "date" : "2019-09-14T16:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Wauktoberfest",
+            "address": "802 South Century Ave \nWaunakee , WI"
+        }
+    },
+    {
+        "date" : "2019-09-21T16:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Kurtz's  Octoberfest",
+            "address": "1410 Washington Street \nTwo Rivers , WI"
+        }
+    },
+    {
+        "date" : "2019-09-28T21:00:00-05:00",
+        "title" : "with Gypsy Rose",
+        
+        "venue" : {
+            "name": "Black Bear Bar",
+            "address": "11045 WI-70 \nMinoqua, WI"
+        }
+    },
+    {
+        "date" : "2019-10-04T19:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Chain O' Lakes Blues Fest",
+            "address": "INDIAN CROSSING CASINO\nWaupaca, WI"
+        }
+    },
+    
+    {
+        "date" : "2019-11-08T20:30:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.slipperynoodle.com/index2.cfm",
+        "venue" : {
+            "name": "Slippery Noodle Inn",
+            "address": "372 S. Meridian St.\nIndianapolis, IN 46225",
+            "phone":"(317) 631-6974"
+        }
+    },
+    {
+        "date" : "2019-11-09T20:30:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.slipperynoodle.com/index2.cfm",
+        "venue" : {
+            "name": "Slippery Noodle Inn",
+            "address": "372 S. Meridian St.\nIndianapolis, IN 46225",
+            "phone":"(317) 631-6974"
         }
     }
 ]
