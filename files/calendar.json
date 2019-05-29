@@ -7,5 +7,14 @@
             "name": "Gibson Music Hall",
             "address": "211 W. College Ave\nAppleton, Wi 54911"
         }
+    },
+    {
+        "date" : "2019-06-12T22:30:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "https://www.facebook.com/livefromhydropark",
+        "venue" : {
+            "name": "Live from Hydro Park",
+            "address": "100 Crooks Ave\nKaukauna, Wi"
+        }
     }
 ]
