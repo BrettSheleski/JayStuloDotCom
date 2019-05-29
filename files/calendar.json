@@ -241,7 +241,7 @@
         "title" : "Jay with the Happy Schnapps Combo",
         
         "venue" : {
-            "name": "Kurtz's  Octoberfest",
+            "name": "Kurtz's Octoberfest",
             "address": "1410 Washington Street \nTwo Rivers , WI"
         }
     },
@@ -263,7 +263,25 @@
             "address": "INDIAN CROSSING CASINO\nWaupaca, WI"
         }
     },
-    
+    {
+        "date" : "2019-10-05T17:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Skinny Dave's",
+            "address": "12848 WI-32\nMountain , WI"
+        }
+    },
+    {
+        "date" : "2019-10-11T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "O' Marro's Public House",
+            "address": "2211T Oregon ST\nOshkosh, WI",
+            "phone":"(920) 410-7735"
+        }
+    },
     {
         "date" : "2019-11-08T20:30:00-05:00",
         "title" : "The Jay Stulo Band",
@@ -282,6 +300,15 @@
             "name": "Slippery Noodle Inn",
             "address": "372 S. Meridian St.\nIndianapolis, IN 46225",
             "phone":"(317) 631-6974"
+        }
+    },
+    {
+        "date" : "2019-11-16T21:30:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Deja vu Martini Lounge",
+            "address": "519 W College Ave.\nAppleton, WI"
         }
     }
 ]
