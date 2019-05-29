@@ -73,3 +73,7 @@ a {
   height: 600px;
   border: none;
 }
+
+#share {
+  padding-top: .5em;
+}
