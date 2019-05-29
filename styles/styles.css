@@ -15,7 +15,11 @@ h1.section, h2.section, h3.section, h4.section, h5.section, h6.section {
 }
 
 h2.section, h3.section, h4.section, h5.section, h6.section {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+a {
+  color: #999;
 }
 
 #mainNav {
@@ -27,7 +31,7 @@ h2.section, h3.section, h4.section, h5.section, h6.section {
   font-size: 1.5em;
   border-bottom-width: 1px;
   border-bottom-style: dashed;
-  border-bottom-color: #333;
+  border-bottom-color: #fff;
   font-family: Arial Black;
   letter-spacing: -3px;
   display: block;
@@ -43,20 +47,20 @@ h2.section, h3.section, h4.section, h5.section, h6.section {
 }
 
 #mainNav li.active {
-  background-color: #333;
+  background-color: #fff;
   color: white;
 }
 
 #mainNav li.active a {
-  color: white;
+  color: red;
 }
 
 #mainNav li:not(.active) a {
-  color: #333;
+  color: #fff;
 }
 
 #mainNav li:not(.active):hover {
-  background-color: #333333;
+  background-color: #000;
   color: #FFFFFF;
 }
 

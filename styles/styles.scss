@@ -21,8 +21,12 @@ h1, h2, h3, h4, h5, h6{
 
 h2, h3, h4, h5, h6{
     &.section{
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid #FFFFFF;
     }
+}
+
+a{
+    color:#999;
 }
 
 #mainNav{
@@ -33,7 +37,7 @@ h2, h3, h4, h5, h6{
         font-size: 1.5em;
         border-bottom-width: 1px;
         border-bottom-style: dashed;
-        border-bottom-color: #333;
+        border-bottom-color: #fff;
         font-family: Arial Black;
         letter-spacing: -3px;
         display: block;
@@ -49,20 +53,20 @@ h2, h3, h4, h5, h6{
     }
 
     li.active{
-        background-color: #333;
+        background-color: #fff;
         color: white;
         a{
-            color: white;
+            color: red;
         }
     }
 
     li:not(.active){
         a{
-            color: #333;
+            color: #fff;
         }
 
         &:hover{
-            background-color: #333333;
+            background-color: #000;
             color: #FFFFFF;
             
             a{
