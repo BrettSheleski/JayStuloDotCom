@@ -52,7 +52,7 @@ a {
 }
 
 #mainNav li.active a {
-  color: #C2C1A5;
+  color: #fff;
 }
 
 #mainNav li:not(.active) a {
