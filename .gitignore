@@ -27,3 +27,7 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+.vs/ProjectSettings.json
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/JayStuloDotCom.github.io/v15/.suo
