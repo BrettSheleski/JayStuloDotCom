@@ -283,7 +283,7 @@
         }
     },
     {
-        "date" : "2019-11-08T20:30:00-05:00",
+        "date" : "2019-11-08T20:30:00-06:00",
         "title" : "The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
         "venue" : {
@@ -293,7 +293,7 @@
         }
     },
     {
-        "date" : "2019-11-09T20:30:00-05:00",
+        "date" : "2019-11-09T20:30:00-06:00",
         "title" : "The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
         "venue" : {
@@ -303,7 +303,7 @@
         }
     },
     {
-        "date" : "2019-11-16T21:30:00-05:00",
+        "date" : "2019-11-16T21:30:00-06:00",
         "title" : "The Jay Stulo Band",
         
         "venue" : {
