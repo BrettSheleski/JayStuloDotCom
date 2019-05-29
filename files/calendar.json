@@ -64,5 +64,14 @@
             "name": "Live from Hydro Park",
             "address": "100 Crooks Ave\nKaukauna, Wi"
         }
+    },
+    {
+        "date" : "2019-06-15T04:15:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://metrojam.org/",
+        "venue" : {
+            "name": "Metro Jam",
+            "address": "Washington Park\nManitowoc, Wi"
+        }
     }
 ]
