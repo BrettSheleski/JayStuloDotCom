@@ -2,50 +2,16 @@
 <html lang="en">
 
 <head>
-        <script type="text/javascript">
-           /* if (location.protocol != 'https:')
-            {
-             location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
-            }*/
-        </script>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     {% seo %}
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
+{% include Favicon.html %}
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" href="styles/styles.min.css">
-
-    {% assign pageStyle = page.url | remove : ".html" | prepend : '/styles/page' | append : '.min.css' %}
-    {% for static_file in site.static_files %}
-    {% if static_file.path ==  pageStyle %}
-    <link rel="stylesheet" href='{{ pageStyle }}?t={{ static_file.modified_time | date: "%s" }}' />
-    {% endif %}
-    {% endfor %}
-
-
-
-    <title>
-        {% if site.title and page.title %}
-            {{ page.title }} • {{ site.title }}
-        {% elsif page.title %}
-            {{ page.title }}
-        {% elsif site.title %}
-            {{ site.title }}
-        {% endif %}
-    </title>
+    {% include PageStyle.html %}
+    {% include Title.html %}
 </head>
 
 <body class="text-dark">
