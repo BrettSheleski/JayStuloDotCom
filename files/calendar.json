@@ -283,6 +283,16 @@
         }
     },
     {
+        "date" : "2019-10-12T19:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+       
+        "venue" : {
+            "name": "Fat Seagull",
+            "address": "807 Quay ST\nManitowoc, WI 54220",
+            "phone":"(920) 684-9123"
+        }
+    },
+    {
         "date" : "2019-11-08T20:30:00-06:00",
         "title" : "The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
