@@ -246,6 +246,16 @@
         }
     },
     {
+        "date" : "2019-09-27T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.dalysrestaurant.com/",
+        "venue" : {
+            "name": "Daly's",
+            "address": "307 3rd St\nWausau, WI 54403",
+            "phone":"(715) 298-1331"
+        }
+    },
+    {
         "date" : "2019-09-28T21:00:00-05:00",
         "title" : "with Gypsy Rose",
         
