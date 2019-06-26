@@ -31,14 +31,52 @@ description: >- # this means to ignore newlines until "baseurl:"
   to remember.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jaystulo.com/" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+
+twitter_username: jstulo
+github_username:  jstulo
+
+### BEGIN jekyll-seo-tag settings
+
+lang: en_US
+author:
+  twitter : jstulo
+  github: jstulo
+
+twitter:
+  username : jstulo
+  card: summary
+
+
+social:
+  name: Jay Stulo
+  links:
+    - https://www.facebook.com/JayStuloMusic
+    - https://twitter.com/jstulo
+    - https://www.linkedin.com/in/jay-stulo-301a508/
+
+#TODO: Fill this out! (see https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md)
+#facebook:
+#  app_id: 
+#  publisher: 
+#  admins: 
+
+#webmaster_verifications:
+#  google: 1234
+#  bing: 1234
+#  alexa: 1234
+#  yandex: 1234
+#  baidu: 1234
+
+### END jekyll-seo-tag settings
+
+
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -56,3 +94,4 @@ defaults:
   -
     values:
       layout: "default"
+      image: /images/logo.jpg
