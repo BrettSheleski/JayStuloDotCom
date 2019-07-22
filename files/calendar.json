@@ -183,15 +183,6 @@
         }
     },
     {
-        "date" : "2019-08-23T22:00:00-05:00",
-        "title" : "Stulo - Thiel Band",
-        "url" : "https://www.madapplebilliards.com/",
-        "venue" : {
-            "name": "Mad Apple Music Fest",
-            "address": "3025 W College Ave.\nAppleton, WI"
-        }
-    },
-    {
         "date" : "2019-08-24T14:00:00-05:00",
         "title" : "Jay with Bryan Koenig's All Stars",
         
@@ -245,16 +236,7 @@
             "address": "1410 Washington Street \nTwo Rivers , WI"
         }
     },
-    {
-        "date" : "2019-09-27T20:00:00-05:00",
-        "title" : "The Jay Stulo Band",
-        "url" : "http://www.dalysrestaurant.com/",
-        "venue" : {
-            "name": "Daly's",
-            "address": "307 3rd St\nWausau, WI 54403",
-            "phone":"(715) 298-1331"
-        }
-    },
+    
     {
         "date" : "2019-09-28T21:00:00-05:00",
         "title" : "with Gypsy Rose",
