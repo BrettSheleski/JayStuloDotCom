@@ -173,6 +173,16 @@
             "address": "10731 WI-42\nOsman, WI"
         }
     },
+    ,
+    {
+        "date" : "2019-08-16T15:20:00-23:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Blue Opus",
+            "address": "1390 Bellevue St, Green Bay, WI"
+        }
+    },
     {
         "date" : "2019-08-20T18:30:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
