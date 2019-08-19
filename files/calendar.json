@@ -264,7 +264,7 @@
         }
     },
     {
-        "date" : "2019-09-22T19:00:00-05:00",
+        "date" : "2019-09-27T19:00:00-05:00",
         "title" : "Jay Stulo Band",
         
         "venue" : {
@@ -346,6 +346,24 @@
         "venue" : {
             "name": "Deja vu Martini Lounge",
             "address": "519 W College Ave.\nAppleton, WI"
+        }
+    },
+    {
+        "date" : "2019-11-22T19:00:00-06:00",
+        "title" : "Jay with Rocking Jimmy Crimmins",
+        
+        "venue" : {
+            "name": "Blue Opus",
+            "address": "1390 Bellevue St.\nGreen Bay, WI"
+        }
+    },
+    {
+        "date" : "2019-11-22T21:00:00-06:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Knuckle Down Saloon",
+            "address": "2513 Seiferth Rd\nMadison, WI"
         }
     }
 ]
