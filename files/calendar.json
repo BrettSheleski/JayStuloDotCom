@@ -254,7 +254,24 @@
             "address": "1410 Washington Street \nTwo Rivers , WI"
         }
     },
-    
+    {
+        "date" : "2019-09-22T09:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Meat's Opera Haus",
+            "address": "204 S 4th Ave. \nSt. Nazianz , WI"
+        }
+    },
+    {
+        "date" : "2019-09-22T19:00:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Silverdome 2019 Blues Party",
+            "address": "Hwy. 10 \nNeillsville , WI"
+        }
+    },
     {
         "date" : "2019-09-28T21:00:00-05:00",
         "title" : "with Gypsy Rose",
