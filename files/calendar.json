@@ -394,7 +394,7 @@
         }
     },
     {
-        "date" : "2019-12-31T21:00:00-6:00",
+        "date" : "2019-12-31T21:00-6:00",
         "title" : "New Years Eve Rock Show with The Blasterz",
         
         "venue" : {
@@ -412,7 +412,7 @@
         }
     },
     {
-        "date" : "2020-02-02T15:00:00-06:00",
+        "date" : "2020-02-02T15:00-06:00",
         "title" : "Jay Stulo Band",
         
         "venue" : {
