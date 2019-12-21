@@ -378,10 +378,64 @@
     {
         "date" : "2019-12-20T20:00:00-06:00",
         "title" : "The Jay Stulo Band",
-        "url" : "https://gibsonmusichall.com/",
+        "url" : "",
         "venue" : {
-            "name": "Gibson Music Hall",
-            "address": "211 W. College Ave\nAppleton, WI 54911"
+            "name": "The Daily Pint",
+            "address": "Northland Ave\nAppleton, WI 54911"
+        }
+    },
+    {
+        "date" : "2019-12-25T20:00:00-6:00",
+        "title" : "Christmas Show with Bobby Evans",
+        
+        "venue" : {
+            "name": "Cold Shot",
+            "address": "Wisconsin Ave.\nAppleton, WI"
+        }
+    },
+    {
+        "date" : "2019-12-31T21:00:00-6:00",
+        "title" : "New Years Eve Rock Show with The Blasterz",
+        
+        "venue" : {
+            "name": "Classics",
+            "address": "Shawano, WI"
+        }
+    },
+    {
+        "date" : "2020-01-22T19:30:00-6:00",
+        "title" : "Wednesday with Wags",
+        
+        "venue" : {
+            "name": "Wheelhouse",
+            "address": "Waupaca, WI"
+        }
+    },
+    {
+        "date" : "2020-02-02T15:00:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Smiling Moose",
+            "address": "10731 WI-42\nOsman, WI"
+        }
+    },
+    {
+        "date" : "2020-03-05T19:00:00-06:00",
+        "title" : "Jay with Rocking Jimmy Crimmins",
+        
+        "venue" : {
+            "name": "Blue Opus",
+            "address": "1390 Bellevue St.\nGreen Bay, WI"
+        }
+    },
+    {
+        "date" : "2020-04-03T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Blue Opus",
+            "address": "1390 Bellevue St, \nGreen Bay, WI"
         }
     }
 ]
