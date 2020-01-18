@@ -437,5 +437,44 @@
             "name": "Blue Opus",
             "address": "1390 Bellevue St, \nGreen Bay, WI"
         }
+    },
+    {
+        "date" : "2020-03-20T20:30:00-06:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.slipperynoodle.com/index2.cfm",
+        "venue" : {
+            "name": "Slippery Noodle Inn",
+            "address": "372 S. Meridian St.\nIndianapolis, IN 46225",
+            "phone":"(317) 631-6974"
+        }
+    },
+    {
+        "date" : "2020-03-21T20:30:00-06:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "http://www.slipperynoodle.com/index2.cfm",
+        "venue" : {
+            "name": "Slippery Noodle Inn",
+            "address": "372 S. Meridian St.\nIndianapolis, IN 46225",
+            "phone":"(317) 631-6974"
+        }
+    },
+    {
+        "date" : "2020-04-18T21:30:00-06:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Deja vu Martini Lounge",
+            "address": "519 W College Ave.\nAppleton, WI"
+        }
+    },
+    {
+        "date" : "2019-05-08T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+       
+        "venue" : {
+            "name": "O' Marro's Public House",
+            "address": "2211T Oregon ST\nOshkosh, WI",
+            "phone":"(920) 410-7735"
+        }
     }
 ]
