@@ -439,7 +439,7 @@
         }
     },
     {
-        "date" : "2020-03-20T20:30:00-06:00",
+        "date" : "2020-03-20T19:30:00-06:00",
         "title" : "The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
         "venue" : {
@@ -449,7 +449,7 @@
         }
     },
     {
-        "date" : "2020-03-21T20:30:00-06:00",
+        "date" : "2020-03-21T19:30:00-06:00",
         "title" : "The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
         "venue" : {
@@ -476,5 +476,14 @@
             "address": "2211T Oregon ST\nOshkosh, WI",
             "phone":"(920) 410-7735"
         }
-    }
+    },
+    {
+        "date" : "2020-07-03T18:15:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+       
+        "venue" : {
+            "name": "Salmon Derby",
+            "address": "425 Maritime Dr\nManitowoc, WI"
+        }
+    },
 ]
