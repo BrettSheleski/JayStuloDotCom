@@ -485,5 +485,14 @@
             "name": "Salmon Derby",
             "address": "425 Maritime Dr\nManitowoc, WI"
         }
+    },
+    {
+        "date" : "2020-07-19T15:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+       
+        "venue" : {
+            "name": "Waterfront Mary's Beach Harbor Resort",
+            "address": "Sturgeon Bay, WI"
+        }
     }
 ]
