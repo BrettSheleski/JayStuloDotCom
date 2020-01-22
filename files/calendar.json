@@ -412,6 +412,15 @@
         }
     },
     {
+        "date" : "2020-01-31T20:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        "url" : "https://gibsonmusichall.com/",
+        "venue" : {
+            "name": "Gibson Music Hall",
+            "address": "211 W. College Ave\nAppleton, WI 54911"
+        }
+    },
+    {
         "date" : "2020-02-02T15:00:00-06:00",
         "title" : "Jay Stulo Band",
         
