@@ -439,6 +439,16 @@
         }
     },
     {
+        "date" : "2020-03-20T19:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+       
+        "venue" : {
+            "name": "Fat Seagull",
+            "address": "807 Quay ST\nManitowoc, WI 54220",
+            "phone":"(920) 684-9123"
+        }
+    },
+    {
         "date" : "2020-03-20T19:30:00-06:00",
         "title" : "The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
@@ -487,12 +497,31 @@
         }
     },
     {
+        "date" : "2020-06-20T19:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+       
+        "venue" : {
+            "name": "Fat Seagull",
+            "address": "807 Quay ST\nManitowoc, WI 54220",
+            "phone":"(920) 684-9123"
+        }
+    },
+    {
         "date" : "2020-07-03T18:15:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
        
         "venue" : {
             "name": "Salmon Derby",
             "address": "425 Maritime Dr\nManitowoc, WI"
+        }
+    },
+    {
+        "date" : "2020-07-18T20:00:00-05:00",
+        "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
+        
+        "venue" : {
+            "name": "The Rock",
+            "address": " N2737 WI-107 \nMerrill, WI "
         }
     },
     {
