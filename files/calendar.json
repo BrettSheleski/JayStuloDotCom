@@ -577,5 +577,23 @@
             "name": "Wauktoberfest",
             "address": "802 South Century Ave \nWaunakee , WI"
         }
+    },
+    {
+        "date" : "2020-09-19T16:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Kurtz's Octoberfest",
+            "address": "1410 Washington Street \nTwo Rivers , WI"
+        }
+    },
+    {
+        "date" : "2020-10-26T17:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Skinny Dave's",
+            "address": "12848 WI-32\nMountain , WI"
+        }
     }
 ]
