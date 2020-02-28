@@ -496,6 +496,15 @@
         }
     },
     {
+        "date" : "2020-05-03T15:30:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Smiling Moose",
+            "address": "10731 WI-42\nOsman, WI"
+        }
+    },
+    {
         "date" : "2020-05-08T20:00:00-05:00",
         "title" : "The Jay Stulo Band",
        
