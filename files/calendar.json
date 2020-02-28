@@ -525,6 +525,16 @@
         }
     },
     {
+        "date" : "2020-06-20T19:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+       
+        "venue" : {
+            "name": "Concerts at the Chamber",
+            "address": "420 Shawano St, /nNew London, WI"
+            
+        }
+    },
+    {
         "date" : "2020-07-03T18:15:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
        
