@@ -469,12 +469,21 @@
         }
     },
     {
-        "date" : "2020-04-03T20:00:00-05:00",
+        "date" : "2020-04-03T19:00:00-05:00",
         "title" : "The Jay Stulo Band",
         
         "venue" : {
             "name": "Blue Opus",
             "address": "1390 Bellevue St, \nGreen Bay, WI"
+        }
+    },
+    {
+        "date" : "2020-04-03T19:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Franks Place",
+            "address": "4534 Reighmoor Rd, \nOmro, WI"
         }
     },
     {
