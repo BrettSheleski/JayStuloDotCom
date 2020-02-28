@@ -589,21 +589,21 @@
         }
     },
     {
-        "date" : "2020-09-18T14:00:00-05:00",
-        "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
-        
-        "venue" : {
-            "name": "Pik's Pub",
-            "address": "Tomahawk, WI"
-        }
-    },
-    {
         "date" : "2020-09-12T16:00:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
         
         "venue" : {
             "name": "Wauktoberfest",
             "address": "802 South Century Ave \nWaunakee , WI"
+        }
+    },
+    {
+        "date" : "2020-09-18T14:00:00-05:00",
+        "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
+        
+        "venue" : {
+            "name": "Pik's Pub",
+            "address": "Tomahawk, WI"
         }
     },
     {
