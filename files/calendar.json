@@ -598,6 +598,15 @@
         }
     },
     {
+        "date" : "2020-08-21T19:00:00-05:00",
+        "title" : "The Mighty Aces",
+        
+        "venue" : {
+            "name": "Big Bull Falls Blues Festival",
+            "address": "Wausau, WI"
+        }
+    },
+    {
         "date" : "2020-08-29T21:00:00-05:00",
         "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
         
