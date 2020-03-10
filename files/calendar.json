@@ -524,6 +524,15 @@
         }
     },
     {
+        "date" : "2020-05-31T14:00:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "JJ Maloney's",
+            "address": "N1994 Maloney Rd\nKaukauna, WI"
+        }
+    },
+    {
         "date" : "2020-06-20T19:00:00-05:00",
         "title" : "The Jay Stulo Band",
        
