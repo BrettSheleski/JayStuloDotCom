@@ -450,7 +450,7 @@
     },
     {
         "date" : "2020-03-20T19:30:00-06:00",
-        "title" : "The Jay Stulo Band",
+        "title" : "*Cancelled(COVID) The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
         "venue" : {
             "name": "Slippery Noodle Inn",
@@ -460,7 +460,7 @@
     },
     {
         "date" : "2020-03-21T19:30:00-06:00",
-        "title" : "The Jay Stulo Band",
+        "title" : "*Cancelled(COVID) The Jay Stulo Band",
         "url" : "http://www.slipperynoodle.com/index2.cfm",
         "venue" : {
             "name": "Slippery Noodle Inn",
@@ -470,7 +470,7 @@
     },
     {
         "date" : "2020-04-03T19:00:00-05:00",
-        "title" : "The Jay Stulo Band",
+        "title" : "*Cancelled(COVID) The Jay Stulo Band",
         
         "venue" : {
             "name": "Blue Opus",
@@ -479,7 +479,7 @@
     },
     {
         "date" : "2020-04-04T19:00:00-05:00",
-        "title" : "The Jay Stulo Band",
+        "title" : "*Cancelled(COVID) The Jay Stulo Band",
         
         "venue" : {
             "name": "Frank's Place",
@@ -488,7 +488,7 @@
     },
     {
         "date" : "2020-04-18T21:00:00-06:00",
-        "title" : "The Jay Stulo Band",
+        "title" : "*Cancelled(COVID) The Jay Stulo Band",
         
         "venue" : {
             "name": "Deja vu Martini Lounge",
@@ -497,7 +497,7 @@
     },
     {
         "date" : "2020-05-02T20:00:00-05:00",
-        "title" : "Jay with Rockin' Jimmy Crimmins",
+        "title" : "*Cancelled(COVID) Jay with Rockin' Jimmy Crimmins",
         
         "venue" : {
             "name": "Jimmy Seas",
@@ -506,7 +506,7 @@
     },
     {
         "date" : "2020-05-03T15:00:00-05:00",
-        "title" : "Jay Stulo Band",
+        "title" : "*Cancelled(COVID) Jay Stulo Band",
         
         "venue" : {
             "name": "Smiling Moose",
@@ -515,7 +515,7 @@
     },
     {
         "date" : "2020-05-08T20:00:00-05:00",
-        "title" : "The Jay Stulo Band",
+        "title" : "*Cancelled(COVID)The Jay Stulo Band",
        
         "venue" : {
             "name": "O' Marro's Public House",
@@ -523,15 +523,7 @@
             "phone":"(920) 410-7735"
         }
     },
-    {
-        "date" : "2020-05-31T14:00:00-05:00",
-        "title" : "Jay Stulo Band",
-        
-        "venue" : {
-            "name": "Fin & Feather",
-            "address": "Winneconne WI"
-        }
-    },
+
     {
         "date" : "2020-06-20T19:00:00-05:00",
         "title" : "The Jay Stulo Band",
