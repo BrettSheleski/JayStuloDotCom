@@ -525,7 +525,7 @@
     },
 
     {
-        "date" : "2020-06-20T19:00:00-05:00",
+        "date" : "2020-06-20T15:00:00-05:00",
         "title" : "The Jay Stulo Band",
        
         "venue" : {
@@ -535,22 +535,32 @@
         }
     },
     {
-        "date" : "2020-07-02T18:00:00-05:00",
-        "title" : "The Jay Stulo Band",
-       
+        "date" : "2020-07-03T15:00:00-05:00",
+        "title" : "*Jay with Rockin' Jimmy Crimmins",
+        
         "venue" : {
-            "name": "Concerts at the Chamber",
-            "address": "420 Shawano St, New London, WI"
-            
+            "name": "Fat Seagull",
+            "address": "807 Quay ST\nManitowoc, WI 54220",
+            "phone":"(920) 684-9123"
         }
     },
     {
-        "date" : "2020-07-03T18:15:00-05:00",
+        "date" : "2020-07-04T18:15:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
        
         "venue" : {
-            "name": "Salmon Derby",
-            "address": "425 Maritime Dr\nManitowoc, WI"
+            "name": "Smashed on the Rocks Salon",
+            "address": "Algoma, WI"
+        }
+    },
+    {
+        "date" : "2020-07-11T15:00:00-05:00",
+        "title" : "The Jay Stulo Band",
+       
+        "venue" : {
+            "name": "2020 Blues Challenge",
+            "address": "Veterans Park\nOostburg, WI",
+            "phone":"(920) 684-9123"
         }
     },
     {
@@ -571,15 +581,7 @@
             "address": "Sturgeon Bay, WI"
         }
     },
-    {
-        "date" : "2020-07-25T16:00:00-05:00",
-        "title" : "Jay with the Happy Schnapps Combo",
-        
-        "venue" : {
-            "name": "Wienerfest",
-            "address": "Lakewood Pavillion\nLakewood, WI"
-        }
-    },
+   
     {
         "date" : "2020-07-26T12:00:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
@@ -587,6 +589,15 @@
         "venue" : {
             "name": "Snow Festival",
             "address": "Two Rivers, WI"
+        }
+    },
+    {
+        "date" : "2020-08-07T10:00:00-05:00",
+        "title" : "Jay with the Happy Schnapps Combo",
+        
+        "venue" : {
+            "name": "Bratfest",
+            "address": "Sheboygan, WI"
         }
     },
     {
@@ -598,15 +609,7 @@
             "address": "Sturgeon Bay, WI"
         }
     },
-    {
-        "date" : "2020-08-21T19:00:00-05:00",
-        "title" : "Jay Stulo & The Mighty Aces",
-        
-        "venue" : {
-            "name": "Big Bull Falls Blues Festival",
-            "address": "Wausau, WI"
-        }
-    },
+   
     {
         "date" : "2020-08-29T21:00:00-05:00",
         "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
