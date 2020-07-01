@@ -535,8 +535,8 @@
         }
     },
     {
-        "date" : "2020-07-03T15:00:00-05:00",
-        "title" : "*Jay with Rockin' Jimmy Crimmins",
+        "date" : "2020-07-03T18:00:00-05:00",
+        "title" : "*Jay with Rockin Jimmy Crimmins",
         
         "venue" : {
             "name": "Fat Seagull",
@@ -545,24 +545,14 @@
         }
     },
     {
-        "date" : "2020-07-04T18:00:00-05:00",
+        "date" : "2020-07-04T14:00:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
        
         "venue" : {
             "name": "Smashed on the Rocks Salon",
             "address": "Algoma, WI"
         }
-    },
-    {
-        "date" : "2020-07-11T15:00:00-05:00",
-        "title" : "The Jay Stulo Band",
-       
-        "venue" : {
-            "name": "2020 Blues Challenge",
-            "address": "Veterans Park\nOostburg, WI",
-            "phone":"(920) 684-9123"
-        }
-    },
+    },   
     {
         "date" : "2020-07-18T20:00:00-05:00",
         "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
