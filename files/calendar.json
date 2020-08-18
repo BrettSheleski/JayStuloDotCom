@@ -584,11 +584,20 @@
     },
     {
         "date" : "2020-08-28T18:00:00-05:00",
-        "title" : "Belgium Blues Blast",
+        "title" : "Jay Stulo Band - Belgium Blues Blast",
         
         "venue" : {
             "name": "Belgium Community Park",
             "address": "106 Beech St \nBelgium, WI"
+        }
+    },
+    {
+        "date" : "2020-08-30T14:00:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Shoots Bar and Grill",
+            "address": "3375 Side St, \nSuamico, WI"
         }
     },
     {
@@ -612,7 +621,7 @@
     },
     
     {
-        "date" : "2020-10-26T17:00:00-05:00",
+        "date" : "2020-09-26T17:00:00-05:00",
         "title" : "Jay with the Happy Schnapps Combo",
         
         "venue" : {
