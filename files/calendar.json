@@ -637,5 +637,32 @@
             "name": "Skinny Dave's",
             "address": "12848 WI-32\nMountain , WI"
         }
+    },
+    {
+        "date" : "2020-10-03T15:15:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "IBC Blues Challenge",
+            "address": "\nOostburg , WI"
+        }
+    },
+    {
+        "date" : "2020-10-03T15:12:15-05:00",
+        "title" : "Jay with The Peep Show",
+        
+        "venue" : {
+            "name": "Wenzel's Perfect World",
+            "address": "Manitowoc, WI"
+        }
+    },
+    {
+        "date" : "2020-10-03T15:21:00-05:00",
+        "title" : "Jay Stulo Band",
+        
+        "venue" : {
+            "name": "Kruse In 1724 ",
+            "address": "Wausau, WI"
+        }
     }
 ]
