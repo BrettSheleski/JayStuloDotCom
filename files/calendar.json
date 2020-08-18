@@ -591,6 +591,16 @@
             "address": "106 Beech St \nBelgium, WI"
         }
     },
+   
+    {
+        "date" : "2020-08-29T21:00:00-05:00",
+        "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
+        
+        "venue" : {
+            "name": "Black Bear Bar",
+            "address": "11045 WI-70 \nMinoqua, WI"
+        }
+    },
     {
         "date" : "2020-08-30T14:00:00-05:00",
         "title" : "Jay Stulo Band",
@@ -601,15 +611,14 @@
         }
     },
     {
-        "date" : "2020-08-29T21:00:00-05:00",
-        "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
+        "date" : "2020-09-12T14:00:00-05:00",
+        "title" : "Jay with Jimmy Crimmins",
         
         "venue" : {
-            "name": "Black Bear Bar",
-            "address": "11045 WI-70 \nMinoqua, WI"
+            "name": "Fat Seagull",
+            "address": "Quat St, Manitowoc, WI"
         }
     },
-    
     {
         "date" : "2020-09-18T14:00:00-05:00",
         "title" : "Gypsy Rose Rock Show (with Doug Kroening)",
